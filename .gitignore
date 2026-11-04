@@ -1,0 +1,10 @@
+src/build/
+__pycache__/
+*.pyc
+*.o
+*.elf
+*.so
+*.a
+*.map
+
+/deps/

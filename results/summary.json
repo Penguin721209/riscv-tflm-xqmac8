@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "variant": "reference",
+      "inputs": 197,
+      "invocations": 1,
+      "macs": 58097664,
+      "instructions": 535433403,
+      "instructions_per_token": 2717936.0558375632,
+      "prepare_instructions": 27844,
+      "xqmac8_instructions": 0,
+      "arena_used": 303664,
+      "arena_reserved": 2097152,
+      "text_bytes": 551032,
+      "data_bytes": 2984,
+      "bss_bytes": 2304624,
+      "section_bytes_sum": 2858640,
+      "elf_sha256": "75cbfa3bef60c132fba929f15575fbb4c8c64107c57a28dd9b2e1e71ed1d3ba9"
+    },
+    {
+      "variant": "prepacked",
+      "inputs": 197,
+      "invocations": 1,
+      "macs": 58097664,
+      "instructions": 61920684,
+      "instructions_per_token": 314318.192893401,
+      "prepare_instructions": 3999425,
+      "xqmac8_instructions": 7262208,
+      "arena_used": 606400,
+      "arena_reserved": 2097152,
+      "text_bytes": 553012,
+      "data_bytes": 2984,
+      "bss_bytes": 2304624,
+      "section_bytes_sum": 2860620,
+      "elf_sha256": "4c77ab21744ae4c3f65658a8c8c6fb2050dd48db5dac5dab8c5266e992162b74"
+    }
+  ],
+  "comparisons": {
+    "prepacked": {
+      "instruction_ratio_reference_over_variant": 8.647084760885393,
+      "instruction_reduction_percent": 88.43540883832381,
+      "allocation_instruction_difference": 3971581,
+      "arena_byte_difference": 302736
+    }
+  },
+  "exact_output_match": true,
+  "prepacked_accumulator_checks_passed": true,
+  "interpretation": "Dynamic instruction counts, not measured cycle or elapsed-time speedup",
+  "allocation_scope": "AllocateTensors plus marker-return/call overhead; includes FC Prepare and prepacking",
+  "inference_scope": "One first Invoke on all 197 tokens plus marker-return/call overhead; input copy, verification and I/O excluded",
+  "preprocessing_excluded_from_inference": true,
+  "performance_software_counters": false,
+  "performance_scalar_accumulator_checks": false
+}

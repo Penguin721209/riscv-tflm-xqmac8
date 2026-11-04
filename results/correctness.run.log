@@ -1,0 +1,5 @@
+MLP_START tokens=197 dim=192 hidden=768 rounding=double MACs=58097664
+MLP_RESULT variant=reference tokens=197 outputs=37824 golden_mismatches=0 original_mismatches=6665 pair_mismatches=0 stage_mismatches=0 arena_used=303664
+MLP_RESULT variant=prepacked tokens=197 outputs=37824 golden_mismatches=0 original_mismatches=6665 pair_mismatches=0 stage_mismatches=0 arena_used=606400
+MLP_COUNTERS fc_invocations=2 xqmac8_calls=7262208 verified_accumulators=189120 accumulator_mismatches=0
+TFLM_MLP_XQMAC8_EXACT_MATCH_37824

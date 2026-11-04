@@ -1,0 +1,13 @@
+diff --git a/customext/customext.mk.in b/customext/customext.mk.in
+index a14e771c..ff3d8e57 100644
+--- a/customext/customext.mk.in
++++ b/customext/customext.mk.in
+@@ -7,5 +7,6 @@ customext_subproject_deps = \
+ customext_srcs = \
+ 	dummy_rocc.cc \
+ 	cflush.cc \
++	xqmac8.cc \
+ 
+-customext_install_shared_lib = yes
++customext_install_shared_lib = yes
+\ No newline at end of file

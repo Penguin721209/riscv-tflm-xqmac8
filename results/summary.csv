@@ -1,0 +1,3 @@
+variant,inputs,invocations,macs,instructions,instructions_per_token,prepare_instructions,xqmac8_instructions,arena_used,arena_reserved,text_bytes,data_bytes,bss_bytes,section_bytes_sum,elf_sha256
+reference,197,1,58097664,535433403,2717936.0558375632,27844,0,303664,2097152,551032,2984,2304624,2858640,75cbfa3bef60c132fba929f15575fbb4c8c64107c57a28dd9b2e1e71ed1d3ba9
+prepacked,197,1,58097664,61920684,314318.192893401,3999425,7262208,606400,2097152,553012,2984,2304624,2860620,4c77ab21744ae4c3f65658a8c8c6fb2050dd48db5dac5dab8c5266e992162b74
